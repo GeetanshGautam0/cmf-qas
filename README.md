@@ -4,25 +4,32 @@
 
 The Quizzing Application Suite is a collection of python modules that come together to make a fairly powerful Quizzing Application.
 
-<img src="https://raw.githubusercontent.com/GeetanshGautam-CodingMadeFun/qas/master/.icons/admin_tools.png" />
-<img src="https://raw.githubusercontent.com/GeetanshGautam-CodingMadeFun/qas/master/.icons/ftsra.png" />
-<img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/quizzing_tool.png?raw=true" />
-<img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/themer.png?raw=true" />
+<table>
+<tr>
+<td><img src="https://raw.githubusercontent.com/GeetanshGautam-CodingMadeFun/qas/master/.icons/admin_tools.png" /></td>
 
-<br>
+<td><img src="https://raw.githubusercontent.com/GeetanshGautam-CodingMadeFun/qas/master/.icons/ftsra.png" /></td>
 
-<img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaQuiz.png?raw=true" alt=".qaQuiz" title=".qaQuiz"/>
+<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/quizzing_tool.png?raw=true" /></td>
 
-<img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaEnc.png?raw=true" alt=".qaEnc" title=".qaEnc" />
+<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/themer.png?raw=true" /></td>
 
-<img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaFile_64.png?raw=true" alt=".qaFile" title=".qaFile" />
+<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaQuiz.png?raw=true" alt=".qaQuiz" title=".qaQuiz"/></td>
 
-<img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaLog.png?raw=true" alt=".qaLog" title=".qaLog"/>
+</tr>
+<tr>
 
-<img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaScore.png?raw=true" alt=".qaScore" title=".qaScore"/>
+<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaEnc.png?raw=true" alt=".qaEnc" title=".qaEnc" /></td>
 
-<img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qa_export.png?raw=true" alt=".qa_export" title=".qa_export" />
+<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaFile_64.png?raw=true" alt=".qaFile" title=".qaFile" /></td>
 
+<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaLog.png?raw=true" alt=".qaLog" title=".qaLog"/></td>
+
+<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaScore.png?raw=true" alt=".qaScore" title=".qaScore"/></td>
+
+<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qa_export.png?raw=true" alt=".qa_export" title=".qa_export" /></td>
+</tr>
+</table>
 <br>
 
 <center>
