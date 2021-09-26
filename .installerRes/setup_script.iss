@@ -35,10 +35,10 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\Le Code\.installerRes\EULA.txt
-OutputDir=D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\Le Code
+LicenseFile=D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\.installerRes\EULA.txt
+OutputDir=D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\Compiled Setups
 OutputBaseFilename=Quizzing Application Setup
-SetupIconFile=D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\Le Code\.icons\setup.ico
+SetupIconFile=D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\.icons\setup.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -52,13 +52,73 @@ Name: "desktopicon_at"; Description: "Create desktop icon for Administrator Tool
 Name: "desktopicon_tu"; Description: "Create desktop icon for Theming Utility"; GroupDescription: "{cm:AdditionalIcons}"
 Name: "desktopicon_ru"; Description: "Create desktop icon for Recovery Utilities"; GroupDescription: "{cm:AdditionalIcons}"
 
-Name: "quicklaunchicon_qf"; Description: "Create a Quick Launch Icon for Quizzing Application (Quizzing Form)"; GroupDescription: "{cm:AdditionalIcons}"; OnlyBelowVersion: 0,6.1
-Name: "quicklaunchicon_at"; Description: "Create a Quick Launch Icon for Administrator Tools"; GroupDescription: "{cm:AdditionalIcons}"; OnlyBelowVersion: 0,6.1
-Name: "quicklaunchicon_tu"; Description: "Create a Quick Launch Icon for Theming Utility"; GroupDescription: "{cm:AdditionalIcons}"; OnlyBelowVersion: 0,6.1
-Name: "quicklaunchicon_ru"; Description: "Create a Quick Launch Icon for Recovery Utilities"; GroupDescription: "{cm:AdditionalIcons}"; OnlyBelowVersion: 0,6.1
+Name: "quicklaunchicon_qf"; Description: "Create a Start Menu Entry for Quizzing Application (Quizzing Form) [Highly Recommended]"; GroupDescription: "{cm:AdditionalIcons}"
+Name: "quicklaunchicon_at"; Description: "Create a Start Menu Entry for Administrator Tools [Highly Recommended]"; GroupDescription: "{cm:AdditionalIcons}"
+Name: "quicklaunchicon_tu"; Description: "Create a Start Menu Entry for Theming Utility [Highly Recommended]"; GroupDescription: "{cm:AdditionalIcons}"
+Name: "quicklaunchicon_ru"; Description: "Create a Start Menu Entry for Recovery Utilities [Highly Recommended]"; GroupDescription: "{cm:AdditionalIcons}"
 
 [Files]
-Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\Le Code\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+; files
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\.gitignore"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\codes.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\installer_options.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\installer_options.pyo"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA Administrator Tools.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA Quizzing Form.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA Recovery Utilities.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA Secondary Setup.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA Theming Utility.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_appinfo.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_appinfo.pyo"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA_apps_admin.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA_apps_admin.spec"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA_apps_ftsra.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA_apps_ftsra.spec"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_apps_quizzingForm.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_apps_quizzingForm.spec"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA_apps_tu.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\QA_apps_tu.spec"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_clearLogs.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_colors.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_diagnostics.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_errorhandler.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_errors.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_errors.pyo"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_fileIOHandler.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_fontPicker.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_globalFlags.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_globalFlags.pyo"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_listbox.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_logging.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_logging.pyo"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_onlineVersCheck.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_pdfGen.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_questionEntryForm.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_questions.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_questionViewForm.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_quizConfig.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_splash.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_theme.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_theme.pyo"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_time.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_time.pyo"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_typeConvertor.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_versionInfo.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qa_win10toast.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qaInstallation_finish.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qaInstallation_finish.spec"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\qaInstllation_finish.py - compilation code"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\README.md"; DestDir: "{app}"; Flags: ignoreversion
+
+; folders
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\.defaultThemes\*"; DestDir: "{app}\.defaultThemes"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\.fts\*"; DestDir: "{app}\.fts"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\.ftsraAid\*"; DestDir: "{app}\.ftsraAid"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\.icons\*"; DestDir: "{app}\.icons"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\.installerRes\*"; DestDir: "{app}\.installerRes"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\.questionAid\*"; DestDir: "{app}\.questionAid"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\User Files\OneDrive\Documents\2. Electronics\1. Python\QAS - 1.6x\.res\*"; DestDir: "{app}\.res"; Flags: ignoreversion recursesubdirs createallsubdirs
+
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
@@ -69,10 +129,10 @@ Name: "{commondesktop}\{#AT_NAME}"; Filename: "{app}\{#AT_NAME_EXE}"; Tasks: des
 Name: "{commondesktop}\{#TU_NAME}"; Filename: "{app}\{#TU_NAME_EXE}"; Tasks: desktopicon_tu
 Name: "{commondesktop}\{#RU_NAME}"; Filename: "{app}\{#RU_NAME_EXE}"; Tasks: desktopicon_ru
 
-Name: "{group}\{#QF_NAME}"; Filename: "{app}\{#QF_NAME_EXE}"
-Name: "{group}\{#AT_NAME}"; Filename: "{app}\{#AT_NAME_EXE}"
-Name: "{group}\{#TU_NAME}"; Filename: "{app}\{#TU_NAME_EXE}"
-Name: "{group}\{#RU_NAME}"; Filename: "{app}\{#RU_NAME_EXE}"
+Name: "{group}\{#QF_NAME}"; Filename: "{app}\{#QF_NAME_EXE}"; Tasks: quicklaunchicon_qf
+Name: "{group}\{#AT_NAME}"; Filename: "{app}\{#AT_NAME_EXE}"; Tasks: quicklaunchicon_at
+Name: "{group}\{#TU_NAME}"; Filename: "{app}\{#TU_NAME_EXE}"; Tasks: quicklaunchicon_tu
+Name: "{group}\{#RU_NAME}"; Filename: "{app}\{#RU_NAME_EXE}"; Tasks: quicklaunchicon_ru
 
 [Setup]
 PrivilegesRequired=admin
