@@ -35,7 +35,7 @@ The Quizzing Application Suite is a collection of python modules that come toget
 
 <center>
 
-#  Learn More
+<h1>Learn More</h1>
 
 <a href="https://geetanshgautam0.github.io/Quizzing-Application-2"> Click here to learn more
 </a>
