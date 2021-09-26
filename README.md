@@ -4,6 +4,7 @@
 
 The Quizzing Application Suite is a collection of python modules that come together to make a fairly powerful Quizzing Application.
 
+<center>
 <table>
   <tr>
   <td><img src="https://raw.githubusercontent.com/GeetanshGautam-CodingMadeFun/qas/master/.icons/admin_tools.png" /></td>
@@ -28,6 +29,7 @@ The Quizzing Application Suite is a collection of python modules that come toget
   <td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qa_export.png?raw=true" alt=".qa_export" title=".qa_export" /></td>
   </tr>
 </table>
+</center>
 
 <br>
 
