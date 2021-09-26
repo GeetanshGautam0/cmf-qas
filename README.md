@@ -5,36 +5,36 @@
 The Quizzing Application Suite is a collection of python modules that come together to make a fairly powerful Quizzing Application.
 
 <table>
-<tr>
-<td><img src="https://raw.githubusercontent.com/GeetanshGautam-CodingMadeFun/qas/master/.icons/admin_tools.png" /></td>
+  <tr>
+  <td><img src="https://raw.githubusercontent.com/GeetanshGautam-CodingMadeFun/qas/master/.icons/admin_tools.png" /></td>
 
-<td><img src="https://raw.githubusercontent.com/GeetanshGautam-CodingMadeFun/qas/master/.icons/ftsra.png" /></td>
+  <td><img src="https://raw.githubusercontent.com/GeetanshGautam-CodingMadeFun/qas/master/.icons/ftsra.png" /></td>
 
-<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/quizzing_tool.png?raw=true" /></td>
+  <td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/quizzing_tool.png?raw=true" /></td>
 
-<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/themer.png?raw=true" /></td>
+  <td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/themer.png?raw=true" /></td>
 
-<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaQuiz.png?raw=true" alt=".qaQuiz" title=".qaQuiz"/></td>
+  <td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaQuiz.png?raw=true" alt=".qaQuiz" title=".qaQuiz"/></td>
+  </tr>
+  <tr>
+  <td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaEnc.png?raw=true" alt=".qaEnc" title=".qaEnc" /></td>
 
-</tr>
-<tr>
+  <td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaFile_64.png?raw=true" alt=".qaFile" title=".qaFile" /></td>
 
-<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaEnc.png?raw=true" alt=".qaEnc" title=".qaEnc" /></td>
+  <td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaLog.png?raw=true" alt=".qaLog" title=".qaLog"/></td>
 
-<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaFile_64.png?raw=true" alt=".qaFile" title=".qaFile" /></td>
+  <td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaScore.png?raw=true" alt=".qaScore" title=".qaScore"/></td>
 
-<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaLog.png?raw=true" alt=".qaLog" title=".qaLog"/></td>
-
-<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qaScore.png?raw=true" alt=".qaScore" title=".qaScore"/></td>
-
-<td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qa_export.png?raw=true" alt=".qa_export" title=".qa_export" /></td>
-</tr>
+  <td><img src="https://github.com/GeetanshGautam-CodingMadeFun/qas/blob/master/.icons/qa_export.png?raw=true" alt=".qa_export" title=".qa_export" /></td>
+  </tr>
 </table>
+
 <br>
 
 <center>
 
 #  Learn More
+
 <a href="https://geetanshgautam0.github.io/Quizzing-Application-2"> Click here to learn more
 </a>
 
