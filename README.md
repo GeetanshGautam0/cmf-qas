@@ -2,7 +2,14 @@
 
 <!-- <img align="center" src="https://cdn.pixabay.com/photo/2014/05/21/19/16/the-question-mark-350170_960_720.png"> -->
 
-The Quizzing Application Suite is a collection of python modules that come together to make a fairly powerful Quizzing Application.
+
+# About
+
+<p>
+<strong>
+  Quizzing Application 2 is the second revision of a python application that you can use to test people, conduct trivia, etc.
+</strong>
+</p>
 
 <center>
 <table>
