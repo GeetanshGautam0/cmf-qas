@@ -7,7 +7,7 @@
 
 <p>
 <strong>
-  Quizzing Application 2 is the second revision of a python application that you can use to test people, conduct trivia, etc.
+  Quizzing Application 2 is the second revision of a python application that you can use to test people, conduct trivia, etc. <a href="geetanshgautam0.github.io/Quizzing-Application-2" target = "_">Learn More</a>
 </strong>
 </p>
 
